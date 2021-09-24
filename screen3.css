@@ -1,0 +1,32 @@
+body{
+    background-image:url("bg-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#logout
+{
+   margin-left:1100px;
+   margin-top:10px;
+}
+#icon_I
+{
+    width:170px;
+    height:170px;
+    border-width: 10px;
+    border-color: white;
+    
+}
+#output
+{
+    background-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+}
+#room_name
+{
+    width:400px;
+}
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}

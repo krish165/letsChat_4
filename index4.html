@@ -1,0 +1,40 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="screen4.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+     
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    </head>    
+
+        <body>
+
+          
+<div class="container">
+	<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+	<center>
+		<h1 class="header">	
+			Let's Chat	
+			<sup>
+				<img src="Icon.png" id="image">
+			</sup>
+		</h1>
+		<div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
+	</center>
+</div>
+<center>
+	<div class="input_div_message_page" >
+		<label>Send:</label>
+		<input type="text" placeholder="Enter the message here" class="form-control" id="message">
+		<button class="btn btn-success" onclick="send()">Send</button>
+	</div>
+</center>
+<script src="3Screen.js"></script>
+
+</body>
+</html>

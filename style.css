@@ -1,0 +1,16 @@
+#side
+{
+    width:500px;
+    height:650px;
+  
+}
+body{
+    text-align: center;
+    background-image: url("login.jpg");
+}
+#gg
+{
+ margin-left:100px;
+ font-family: cursive;
+ 
+}

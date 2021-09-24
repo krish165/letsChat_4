@@ -1,0 +1,20 @@
+body{
+    background-image: url("screen1img.jpg");
+    background-size: cover;
+
+}
+#iconimg
+{
+    border-color: white;
+    border-radius:155px;
+    border-width:5px;
+}
+#logout
+{
+   margin-left:1100px;
+   margin-top:10px;
+}
+#user_name
+{
+    width:300px;
+}
